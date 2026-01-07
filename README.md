@@ -98,11 +98,11 @@ All events automatically **revert** once expired.
 ---
 
 ## 📁 Project Structure
-├── graph_with_metadata.json # City graph (nodes, edges, metadata)
-├── simulation.json # Full timestep-by-timestep simulation log
-├── simulation_log.json # Sample / debug logs
-├── 23EC30067.ipynb # Main implementation notebook
-├── README.md # Project documentation
+├── graph_with_metadata.json # City graph (nodes, edges, metadata)  
+├── simulation.json # Full timestep-by-timestep simulation log  
+├── simulation_log.json # Sample / debug logs  
+├── 23EC30067.ipynb # Main implementation notebook  
+├── README.md # Project documentation  
 
 
 ---
