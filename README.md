@@ -98,4 +98,42 @@ All events automatically **revert** once expired.
 ---
 
 ## 📁 Project Structure
+├── graph_with_metadata.json # City graph (nodes, edges, metadata)
+├── simulation.json # Full timestep-by-timestep simulation log
+├── simulation_log.json # Sample / debug logs
+├── 23EC30067.ipynb # Main implementation notebook
+├── README.md # Project documentation
+
+
+---
+
+## 🧾 Simulation Log Format
+
+```json
+{
+  "step": 12,
+  "carA": {
+    "pos": 38,
+    "edge_from": 38,
+    "edge_to": 48,
+    "progress": 1.0,
+    "Dijkstra_path": [48]
+  },
+  "carB": {
+    "pos": 14,
+    "edge_from": 14,
+    "edge_to": 48,
+    "progress": 0.0,
+    "Dijkstra_path": [48]
+  },
+  "caught": false,
+  "reached": false,
+  "log_events": [
+    {
+      "type": "One-way",
+      "edge": [33, 32],
+      "steps": 6
+    }
+  ]
+}
 
